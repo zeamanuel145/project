@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.background{
+    background-image: url("../project/wewe.jpg");
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+height: 60rem;
+width: 100%;
+}
+
+.over-lay{
+    background: rgba(0,0,0, 0.6);
+    
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+color: white;
+    margin: 0;
+    font-size: 250%;
+    font-family: "journey ";
+    height: 60rem;;
+    width: 100%;
+
+}
+
+
+   
+.search-item{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: #D5CEA3;
+            height: 40px;
+            border-radius: 30px;
+            padding: 10px;
+}
+
+.search-item:hover > .search-box{
+    width:240px;
+    padding: 0 7px;
+
+}
+.search-icon{
+    float: right;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background:#D5CEA3 ;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #000000;
+
+
+}
+.search-box{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #0E2954;
+   font-size: 16px;
+   transition: 0.4s;
+   line-height:40px ;
+   width: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
